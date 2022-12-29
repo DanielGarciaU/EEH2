@@ -11,4 +11,6 @@ conn = pyodbc.connect(conn_str)
 df = pd.read_sql('SELECT top 100* FROM historico_consumos', conn)
 
 print(df)
+print(df)
+print('mi mamá me mima')
 print(type(df))
